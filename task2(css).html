@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Navigation Bars</title>
+<style>
+/* Vertical navigation bar */
+.vertical-nav {
+  width: 200px;
+  background-color: cyan;
+  color: blue;
+  float: left;
+  padding-right: 20px;
+  border: 1px solid;
+}
+
+.vertical-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.vertical-nav li {
+  float: none;
+  display: block;
+  margin: 0 0 10px 0;
+}
+
+.vertical-nav a {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  color: blue;
+  text-decoration: none;
+}
+
+.vertical-nav a:hover {
+  background-color: orange;
+  color: white;
+}
+
+/* Horizontal navigation bar */
+.horizontal-nav {
+  background-color: rgb(196, 187, 187);
+  width: auto;
+  border: 1px solid;
+  float: right;
+}
+
+.horizontal-nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.horizontal-nav li {
+  float: left;
+  height: 40px;
+  width: 60px;
+  border: 1px solid  blue;
+}
+
+.horizontal-nav a {
+  display: block;
+  text-align: center;
+  padding: 8px 16px;
+  color: blue;
+  text-decoration: none;
+}
+.list{
+    color: blue; 
+}
+
+.horizontal-nav a:hover {
+  background-color: grey;
+  color: white;
+}
+.heading{
+    text-align: center;
+}
+.para{
+    text-align: right;
+}
+</style>
+</head>
+<body>
+    <h1 class="heading">Task 2</h1>
+    <p>Vertical Nav Bar</p>
+<div class="vertical-nav">
+  <ul >
+    <li ><a href="#">Home</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">Bootstrap</a></li>
+  </ul>
+</div>
+<p class="para">Horizontal Nav Bar</p>
+<div class="horizontal-nav">
+  <ul>
+    <li><a href="#">Home</a></li>
+    <li><a href="#">Java</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
+    <li><a href="#"></a></li>
+  </ul>
+</div>
+</body>
+</html>
